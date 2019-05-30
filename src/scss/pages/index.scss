@@ -1,0 +1,45 @@
+.title {
+    margin: 0;
+    padding: 1rem 0;
+    text-align: center;
+    color: #fff;
+    background: #333;
+}
+
+.container{
+    display: flex;
+    justify-content:space-around;
+    padding-top: 2rem;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+
+    &__field{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1rem;
+    }
+}
+
+.add-section{
+    margin: 1rem 0;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #999;
+    cursor: pointer;
+
+    & i{
+        margin-right: .5rem;
+    }
+
+}
+
+.preview{
+    width: 50%;
+    height: 80vh;
+    background: #888;
+}
